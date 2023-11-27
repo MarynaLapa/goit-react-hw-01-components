@@ -1,3 +1,5 @@
+import css from './statistics.module.css'
+
 function getRandomColor() {
   var letters = '789ABCD';
   var color = '#';
@@ -9,19 +11,19 @@ function getRandomColor() {
 
 export default function Statistics({ title = null, dataset }) {
   const listItems = dataset.map(data =>
-      <li className="item"
+      <li className={css.items}
             key={data.id}
             style={{
                 backgroundColor: getRandomColor(),
             }}>
-        <span className="label">{data.label}</span>
-        <span className="percentage">{data.percentage}</span>
+        <span className={css.label}>{data.label}</span>
+        <span className={css.percentage}>{data.percentage}%</span>
     </li>
   );
   return (
-    <section className="statistics">
-        {title !== null ? (<h2 className="title">{title}</h2>) : ('')}
-        <ul className="stat-list">
+    <section className={css.statistics}>
+        {title !== null ? (<h2 className={css.title}>{title}</h2>) : ('')}
+      <ul className={css.statList}>
             {listItems}
         </ul>
     </section>
