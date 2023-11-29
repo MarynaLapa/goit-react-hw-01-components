@@ -1,4 +1,4 @@
-.profile-avatar {
+.avatar {
     width: 200px;
     border-radius: 50%;
     border: 5px solid #e1ecf5;
@@ -14,7 +14,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 }
 
-.profile-description {
+.description {
     background-color: #fbfbfb;
     padding-top: 60px;
     border-start-end-radius: 15px;
@@ -23,34 +23,34 @@
     border-bottom: none
 }
 
-.profile-name {
+.name {
     text-align: center;
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 48px;
 }
 
-.profile-tag {
+.tag {
     color: #c5c2c2;
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.profile-location {
+.location {
     color: #c5c2c2;
     text-align: center;
     padding-bottom: 60px;
 }
 
-.profile-stats {
+.stats {
     display: flex;
     justify-content: flex-end;
     border: 1px solid #c4c4dd;
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2); */
 }
 
-.profile-stats-item {
+.statsItem {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -59,12 +59,12 @@
     padding: 20px;
 }
 
-.profile-label {
+.label {
     color: #c5c2c2;
     font-size: 32px;
 }
 
-.profile-quantity {
+.quantity {
     font-weight: 500;
     font-size: 36px;
 }
